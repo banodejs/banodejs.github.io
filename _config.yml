@@ -1,0 +1,20 @@
+# Site settings
+title: BA Node.js
+
+twitter_username: banodejs
+github_username:  banodejs
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+highlighter: pygments
+permalink: none
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
